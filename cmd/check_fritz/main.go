@@ -246,7 +246,7 @@ func main() {
 				Value:       "DSL",
 				DefaultText: "DSL",
 				Aliases:     []string{"M"},
-				Usage:       "Specifies the Fritz!Bpx model group (DSL or Cable).",
+				Usage:       "Specifies the Fritz!Bpx model group (DSL, Cable or Fibre).",
 			},
 			&cli.Float64Flag{
 				Name:    "warning",
